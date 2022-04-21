@@ -73,3 +73,12 @@ fetch('ссылка на сервер')
   .catch((err) => {
   console.log(err)
   })
+
+
+// 16.04.22
+// Ассинхронность
+
+// spread and rest - [...data]
+
+const [first, ... rest] = [1,2,3,4,5,6,7,8,9]  // сохранит в rest все остальное
+

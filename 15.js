@@ -1,10 +1,10 @@
-const wait = (operation) => {
-    return new Promise((res) => { // создаем промис, чтобы он показывал сообщение через какое-то время 
-        setTimeout(() => {
-            res(operation)
-        }, 3000) 
-    })
-}
+// const wait = (operation) => {
+//     return new Promise((res) => { // создаем промис, чтобы он показывал сообщение через какое-то время 
+//         setTimeout(() => {
+//             res(operation)
+//         }, 3000) 
+//     })
+// }
 
 // // дожидаемся выполнения функции
 // async function someAsyncFunction() {
@@ -24,6 +24,15 @@ const wait = (operation) => {
 
 
 
+
+const wait = (operation) => {
+    return new Promise((res) => { // создаем промис, чтобы он показывал сообщение через какое-то время 
+        setTimeout(() => {
+            res(operation)
+        }, 3000) 
+    })
+}
+
 const getSomeCalculation = async () => {
     console.log('Просто сообщение которое означает что функция началась')
     let fortyfive = 45
@@ -35,3 +44,15 @@ const getSomeCalculation = async () => {
 }
 
 getSomeCalculation()
+
+
+// git add . - следит за изменениями
+
+// git commit -m "Created course js files" - изменения обарачивает в один комментарий 
+
+// git remote add origin https://github.com/kubablack1997/js-course.git  - соединяет все 
+
+//шаги для  сохранения изменений в гитхабе
+// 1. git add .
+// 2. git commit -m "some message"
+// 3. git push
