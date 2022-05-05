@@ -1,0 +1,56 @@
+/* p {
+    background-color: red;
+    color: blue;
+    font-size: 20px; /*размер шрифта*/
+    /* font-weight: 900;/*жирность шрифта, по умолчанию 400, 100-900*/
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: #ffffff; /* hex шесть символов от 0-9, от a - f*/
+    /* color: rgb(0, 255, 255); /*rgba */
+    /* height: 600px; */ 
+    /* border-width: 5px;
+    border-style: dashed;
+    border-color: black; */
+    /* width: 200px;
+    border: 5px solid chartreuse; wildth style color */
+
+    /* margin: 30px ;внешний отступ */
+    /* margin-top: 60px
+    padding: 50px ;
+} */ 
+
+p {
+font-size: 20px;
+width: 80%;
+background-color: pink;
+padding-bottom: 20px;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+}
+ul {
+    color:red;
+    text-align: center;
+}
+
+span {
+    font-size: 30px;
+    color: blue;
+    background-color: blueviolet;
+}
+
+
+div {
+    position: fixed; /*absolute, fixed, relative*/
+    height: 20px;
+    top: 50%;
+    left: 60%;
+    /* right */
+    width: 20px;
+    background-color: aquamarine;
+}
+
+
+
