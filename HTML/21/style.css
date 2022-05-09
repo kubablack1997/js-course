@@ -51,3 +51,22 @@ section {
 .contacts ul {
     text-align: left;
 }
+
+
+
+
+@media (max-width: 700px) {
+    header {
+        text-align: center;
+    }
+    .home img {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    body, .navigation-link {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,88 @@
+/* each element */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.adaptivegrid {
+    display: grid;
+    grid-template-columns: 150px 150px 1fr ; /* чтобы писать по вертикали, fr - одно целое пространство */ 
+    grid-template-rows: 150px 150px 150px;
+    gap: 20px 40px; /* задает отступы между элементами */ 
+}
+
+
+
+.adaptive {
+    display: flex;   /* расставляет по горизонтали*/
+    justify-content: space-evenly; /*  расставляет по горизонтали и разбрасывает по ширине на одинаковом друг от друга расстаянии? space-between, space-evenly, flex-end*/
+    align-items: center;
+    flex-direction: column; /* выравнивание по вертикали */
+    background-color: red;
+    color: aliceblue;
+    padding: 20px;
+    height: 100px;
+}
+
+
+p {
+    background-color: black;
+    color: white;
+    /* height: 30px; */
+}
+
+.small {
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1,
+.container2 {
+    width: 50%;
+}
+
+.text1 {
+    margin-bottom: 100px;
+}
+
+img {
+    width: 200px;
+}
+
+
+
+
+
+
+@media  (min-width: 2400px) and (max-width: 4000px)       {
+    .adaptive {
+        background-color: black;
+        color: black;
+    }
+}
+
+
+
+
+@media  (max-width: 700px){    /* max width values on desc ordering */
+    .adaptive {
+        background-color: violet;
+        border: 2px solid rebeccapurple
+    }
+}
+
+
+@media  (max-width: 500px){
+    .adaptive {
+        background-color: crimson;
+        border: 2px solid blue;
+    }
+}
+
+
+
