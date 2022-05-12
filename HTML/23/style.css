@@ -1,0 +1,58 @@
+/* Обращение к атрибутам */
+.input[type=color],
+.input[type=text] {
+    display: block;
+    width: 380px;
+    height: 20px;
+}
+
+
+/* Псевдоселекторы*/ 
+
+/* p:last-child {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+p:nth-child {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+} */
+
+/* Псевдоклассы */ 
+
+p:hover{
+    background-color: black;
+    color: white;
+}
+
+.input[type=checkbox]:checked {
+    margin-bottom: 100px;
+}
+
+.input[type=text]:focus{
+    background-color: #fff;
+    color: black;
+}
+
+/* Псевдоэлементы */ 
+
+p::before {
+    content: 'adfdfdfdf';
+    margin-right: 50px;
+    color: pink;
+}
+
+
+p::after {
+    content: '';
+    display: block;
+    margin-top: 5px;
+    height: 2px;
+    width: 100%;
+    border-color: pink;
+
+}
+
