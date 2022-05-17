@@ -515,12 +515,12 @@ p {
 
 .input:focus + .label{
     transform: translateY(-15px);
-    fnsz: 12px;
+    font-size: 12px;
 }
 
 .input:not(:placeholder-shown) + .label {
     transform: translateY(-15px);
-    fnsz: 12px;
+    font-size: 12px;
 }
 
 

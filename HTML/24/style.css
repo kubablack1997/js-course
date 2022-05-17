@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1C1E53;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_link{
+    color: #BBBBCB;
+    font-size: 16px;
+    margin-right: 32px;
+}
+
+.nav_link:hover{
+    color: white;
+
+}
+
+.contact_us_btn {
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    color: white;
+    padding: 16px 48px;
+    background: none;
+}
+
+section {
+    padding: 128px 0;
+}
+
+.home{
+    display: flex;
+    background: #1C1E53;
+    color: white;
+
+}
+
+.home_text{
+    font-weight: 600;
+    font-size: 54px;
+    margin-bottom: 24px;
+}
+
+
+.home_description_text{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.home_description{
+    width: 60%;
+}
+
+.home_img{
+    width: 60%;
+}
+
+.home_img img{
+    width: 100%;
+}
+
+
+.home_btns {
+    display: flex;
+    align-items: center;
+
+}
+
+.home_btns button {
+    margin-right: 40px;
+}
+
+.btn_bg_yellow {
+    background-color: #FCD980;
+    border-radius: 41px;
+    color: black;
+    padding: 16px 56px;
+    border: none;
+}
+
+.btn_bg_arrow{
+    color: white;
+    border: none;
+    background: none;
+
+} 
+
+.work_description_text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+    margin-bottom: 16px;
+}
+
+.work_table{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
